@@ -4,28 +4,10 @@ import { motion } from 'motion/react';
 
 export function Platforms() {
   return (
-    <section id="platform" className="py-32 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0">
-        <motion.div
-          animate={{
-            scale: [1, 1.1, 1],
-            opacity: [0.3, 0.5, 0.3],
-          }}
-          transition={{ duration: 8, repeat: Infinity }}
-          className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl"
-        />
-        <motion.div
-          animate={{
-            scale: [1.1, 1, 1.1],
-            opacity: [0.3, 0.5, 0.3],
-          }}
-          transition={{ duration: 8, repeat: Infinity, delay: 4 }}
-          className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl"
-        />
-      </div>
-
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<section
+  id="platform"
+  className="py-32 bg-gradient-to-br from-orange-400 via-orange-500 to-orange-700 text-white relative overflow-hidden"
+>      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,14 +45,14 @@ export function Platforms() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="flex items-start gap-5 bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20 hover:bg-white/15 transition-all group"
+                className="flex items-start gap-5 bg-white p-6 rounded-2xl border border-gray-200 hover:bg-gray-50 transition-all group shadow-lg hover:shadow-xl"
               >
-                <div className="bg-gradient-to-br from-blue-500 to-purple-500 p-4 rounded-xl group-hover:scale-110 transition-transform">
+                <div className="bg-gradient-to-br from-orange-500 to-red-500 p-4 rounded-xl group-hover:scale-110 transition-transform">
                   <item.icon size={28} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">{item.title}</h3>
-                  <p className="text-blue-100">{item.desc}</p>
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">{item.title}</h3>
+                  <p className="text-gray-600">{item.desc}</p>
                 </div>
               </motion.div>
             ))}

@@ -18,19 +18,19 @@ export function Features() {
       icon: Search,
       title: 'Smart Discovery',
       description: 'AI-powered search to find exactly what you need, when you need it.',
-      gradient: 'from-blue-500 to-cyan-500'
+      gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: Shield,
       title: 'Verified Profiles',
       description: 'Every provider is verified with detailed service history and credentials.',
-      gradient: 'from-purple-500 to-pink-500'
+      gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: DollarSign,
       title: 'Flexible Pricing',
       description: 'Choose fixed prices or receive competitive bids that fit your budget.',
-      gradient: 'from-green-500 to-emerald-500'
+      gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: MessageCircle,
@@ -42,13 +42,13 @@ export function Features() {
       icon: Star,
       title: 'Ratings & Reviews',
       description: 'Transparent reviews from real customers to help you decide.',
-      gradient: 'from-indigo-500 to-purple-500'
+      gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: MapPin,
       title: 'Location-Based',
       description: 'Find services and providers right in your neighborhood.',
-      gradient: 'from-pink-500 to-rose-500'
+      gradient: 'from-orange-500 to-red-500'
     }
   ];
 
@@ -72,7 +72,7 @@ export function Features() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {features.map((feature, index) => (
             <motion.div
-              key={index}
+              key={index}en 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

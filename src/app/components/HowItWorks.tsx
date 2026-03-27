@@ -7,25 +7,25 @@ export function HowItWorks() {
       icon: FileText,
       title: 'Post Your Need',
       description: 'Describe your project with details, budget, and timeline in minutes.',
-      color: 'from-blue-500 to-cyan-500',
-      iconBg: 'bg-blue-100',
-      iconColor: 'text-blue-600'
+      color: 'from-orange-500 to-red-500',
+      iconBg: 'bg-orange-100',
+      iconColor: 'text-orange-600'
     },
     {
       icon: Users,
       title: 'Get Proposals',
       description: 'Receive competitive bids from verified professionals in your area.',
-      color: 'from-purple-500 to-pink-500',
-      iconBg: 'bg-purple-100',
-      iconColor: 'text-purple-600'
+      color: 'from-orange-500 to-red-500',
+      iconBg: 'bg-orange-100',
+      iconColor: 'text-orange-600'
     },
     {
       icon: MessageSquare,
       title: 'Compare & Chat',
       description: 'Review profiles, ratings, and discuss details privately.',
-      color: 'from-green-500 to-emerald-500',
-      iconBg: 'bg-green-100',
-      iconColor: 'text-green-600'
+      color: 'from-orange-500 to-red-500',
+      iconBg: 'bg-orange-100',
+      iconColor: 'text-orange-600'
     },
     {
       icon: CheckCircle,
